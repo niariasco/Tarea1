@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<!--Define el tipo de documento como HTML5.  --> 
+
+<html lang="en"> 
+    <!--Define el elemento raíz de un documento HTML. --> 
+
+<head>
+    <!--head : Define  la  cabeza  de  un  documento  HTML,  que  contiene  información  sobre  el 
+documento, como el título, los enlaces, los estilos y los scripts.-->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--<meta>:  Define  los  metadatos  de  un  documento  HTML,  como  el  autor,  la  descripción,  las 
+palabras clave, el juego de caracteres o la vista de compatibilidad. -->
+   
+    <h1>The title element. </h1>
+    <title>Tarea1</title> 
+    <!--título  de  un  documento  HTML,  que  se  muestra  en  la  barra  de  título  del  navegador o en la pestaña de la página.-->
+   
+    <h1>The base element. </h1>
+    <base href="https://niariasco.github.io/Tarea1/" target="_blank"> 
+    <!-- URL base para todos los enlaces relativos de un documento HTML.-->
+   
+    <h1>The link element. </h1>
+    <link rel="icon" type="image/x-icon" href="12cf9cab358edfff8e6959818f971780.jpg">  
+    <!-- icono-->
+</head>
+<body>
+    <!-- cuerpo  de un documento HTML,  que  contiene el  contenido  visible  de  la página.-->
+<h1>The h1-h6 element. </h1>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+<!--<h1>  -  <h6> Definen  los  encabezados  de  un  documento  HTML. -->
+
+    <hgroup>
+        <h1>The hgroup element. Form1</h1>
+        <h1>Hgroup1 </h1>
+        <h2>Hgroup2</h2>
+    </hgroup>
+    <!--Define  un  grupo  de  encabezados  de  un  documento  HTML,  que  pueden  ser  un 
+título y un subtítulo, o varios niveles de encabezados relacionados.-->
+
+    <hgroup>
+        <h1>The hgroup element. Form2</h1>
+    This is heading 1
+    This is heading 2
+    This is heading 6
+    </hgroup>
+    <!--impresion : This is heading 1 This is heading 2 This is heading 6-->
+
+    <h1>The address element</h1>
+    <address>
+    Hecho por <a href="https://niariasco.github.io/Tarea1/">Nicole Arias</a>.<br> 
+    Visita el sitio web : <br>
+    https://niariasco.github.io/Tarea1/<br>
+    Sarchi, Alajuela<br>
+    CR
+    </address>
+    <!-- address : información de contacto del autor o el propietario de un documento o un  artículo  HTML-->
+
+    <h1>The div element</h1>
+    <style>
+        .myDiv {
+          border: 5px outset red;
+          background-color: lightblue;    
+          text-align: center;
+        }
+        </style>
+        <h1>The div element</h1>
+        <div class="myDiv">
+          <h2>Encabezado</h2>
+          <p>Tarea1.</p>
+        </div>
+        <p>Fuera del div.</p>    
+        <!--div : división o una sección genérica de un documento HTML-->
+
+
+        <h1>The iframe element</h1>
+        <iframe src="https://niariasco.github.io/Tarea1/" title="Tarea1 iframe">
+        </iframe>
+        <!--iframe : división : mostrar una página web dentro de una página web-->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iframe Form2 : Mapa de Sarchí, Alajuela</title>
+        <h1>Mapa de Sarchí, Alajuela</h1>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.9537363153187!3d-37.81627974202154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0596559c82661%3A0x6fb47b55d280c3be!2sProvincia%20de%20Alajuela%2C%20Sarch%C3%AD!5e0!3m2!1ses!2scr!4v1690375098131!5m2!1ses!2scr" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+       <!--iframe : división : mostrar una página web dentro de una página web-->
+
+
+    <p>
+        <a href="https://niariasco.github.io/Tarea1/">Ir a otra página</a> <!-- Se interpretará como https://www.ejemplo.com/pagina.html -->
+    </p>
+
+</body>
+</html>
