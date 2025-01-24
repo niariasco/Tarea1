@@ -27,6 +27,20 @@ palabras clave, el juego de caracteres o la vista de compatibilidad. -->
     <!-- icono-->
 </head>
 <body>
+
+       <h1>The link element. </h1>
+    <link rel="icon" type="image/x-icon" href="Tareas\Tarea 1\imagenes/Amapola.jpeg">  
+    <!-- icono-->
+ 
+
+</head>
+<body>
+
+    <img
+    src="Tareas\Tarea 1\imagenes/Amapola.jpeg" width="500" height="600"
+    alt="Imagen no encontrada"
+   />
+   
     <!-- cuerpo  de un documento HTML,  que  contiene el  contenido  visible  de  la página.-->
 <h1>The h1-h6 element. </h1>
 <h1>This is heading 1</h1>
